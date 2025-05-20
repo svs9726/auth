@@ -45,6 +45,7 @@ ActiveRecord::Schema[7.1].define(version: 2022_02_21_190705) do
     t.datetime "updated_at", null: false
   end
 
+  # unique to this one -- a users' table 
   create_table "users", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
